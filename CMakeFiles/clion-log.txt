@@ -1,0 +1,4 @@
+/home/a1studen/Downloads/CLion-2017.1.1/clion-2017.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/a1studen/refactoring/refactoring-workshop-2016
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/a1studen/refactoring/refactoring-workshop-2016

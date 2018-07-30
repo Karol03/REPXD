@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSnakeController.a  CMakeFiles/SnakeController.dir/SnakeController.cpp.o CMakeFiles/SnakeController.dir/World.cpp.o CMakeFiles/SnakeController.dir/Segments.cpp.o
+/usr/bin/ranlib libSnakeController.a

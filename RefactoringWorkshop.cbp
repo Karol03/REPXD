@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RefactoringWorkshop"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\googletest-master\;CMake Files\googletest-master\googlemock\;CMake Files\googletest-master\googletest\;CMake Files\googletest-master\googletest\cmake\;CMake Files\DynamicEvents\;CMake Files\SnakeController\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DynamicEvents_HEADERS">
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/Makefile&quot;  VERBOSE=1 DynamicEvents_HEADERS"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SnakeController_UT">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/SnakeController_UT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/."/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 SnakeController_UT"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SnakeController_UT/fast">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/SnakeController_UT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/."/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/include"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 SnakeController_UT/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SnakeController">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/libSnakeController.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 SnakeController"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SnakeController/fast">
+				<Option output="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/libSnakeController.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController"/>
+					<Add directory="/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 SnakeController/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/Event.hpp">
+			<Option target="DynamicEvents_HEADERS"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/EventT.hpp">
+			<Option target="DynamicEvents_HEADERS"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/IEventHandler.hpp">
+			<Option target="DynamicEvents_HEADERS"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/IPort.hpp">
+			<Option target="DynamicEvents_HEADERS"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Segments.cpp">
+			<Option target="SnakeController"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Segments.hpp">
+			<Option target="SnakeController"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/SnakeController.cpp">
+			<Option target="SnakeController"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/SnakeController.hpp">
+			<Option target="SnakeController"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/SnakeInterface.hpp">
+			<Option target="SnakeController"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Tests/Mocks/EventMatchers.hpp">
+			<Option target="SnakeController_UT"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Tests/Mocks/PortMock.hpp">
+			<Option target="SnakeController_UT"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Tests/SnakeControllerConfigBuilder.hpp">
+			<Option target="SnakeController_UT"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Tests/SnakeControllerPauseTestSuite.cpp">
+			<Option target="SnakeController_UT"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Tests/SnakeControllerTestSuite.cpp">
+			<Option target="SnakeController_UT"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/Tests/SnakeControllerWrongFoodLocation.cpp">
+			<Option target="SnakeController_UT"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/World.cpp">
+			<Option target="SnakeController"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/World.hpp">
+			<Option target="SnakeController"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/DynamicEvents/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DynamicEvents\"/>
+		</Unit>
+		<Unit filename="/home/a1studen/refactoring/refactoring-workshop-2016/SnakeController/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SnakeController\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
